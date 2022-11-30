@@ -1,0 +1,76 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+:root{
+font-size: 62.5%;
+}
+
+body{
+font-size: 1.6rem;
+font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+width: 80%;
+height: 100%;
+margin: auto;
+}
+#header{
+}
+nav{
+display: flex;
+justify-content:space-between;
+align-items: center;
+padding: 10px;
+background-color: rgb(6, 6, 24);
+}
+nav #menu{
+display: flex;
+list-style: none;
+
+margin-right: 30px;
+}
+#menu li{
+padding-left:20px;
+}
+#menu li a{
+padding:10px;
+color: #ddd;
+text-decoration: none;
+font-size: 12px;
+letter-spacing: 2px;
+text-transform: uppercase;
+transition: .3s;
+}
+#menu li a:hover{
+color: white;
+}
+nav .logo{
+position: relative;
+left: 150px;
+}
+
+#header .imagem-topo{
+width: 100%;
+}
+#portifolio{
+margin-top: 30px;
+text-align: center;
+}
+#portifolio h1{
+font-size: 48px;
+}
+.portifolio-paragraph{
+width: 80%;
+border: 1px solid red ;
+margin: auto;
+margin-top: 30px;
+}
+
+.portifolio-paragraph p{
+line-height:1.5;
+padding: 0 30px 0 20px;
+
+}
