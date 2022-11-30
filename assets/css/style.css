@@ -13,11 +13,11 @@ font-size: 1.6rem;
 font-family:tahoma,arial,sans-serif;
 }
 .container{
-width:1024px;
-margin: 20px auto;
+width:102.4rem;
+margin: 2rem auto;
 }
 #header{
-height: 50px;
+height: 5rem;
 background-color: #162028;
 }
 nav{
@@ -27,28 +27,28 @@ justify-content: space-between;
 }
 
 .logo{
-margin: 5px 0 0 135px;
+margin: .5rem 0 0 13.5rem;
 }
 #menu{
 display: flex;
 align-items: center;
-margin-top:5px;
+margin-top:.5rem;
 list-style: none;
-margin-right: 30px;
+margin-right: 3rem;
 }
  
 #menu li{
-margin-right: 15px;
-padding: 10px;
+margin-right: 1.5rem;
+padding: 1rem;
 }
 
 #menu li a{
-  padding: 5px;
+  padding: .5rem;
   color: #425564;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 12px;
+  letter-spacing: .5rem;
+  font-size: 1.2rem;
   transition: .4s;
 }
 #menu li a:hover{
@@ -56,59 +56,56 @@ padding: 10px;
 }
 
 #portifolio{
-  padding: 50px 100px;
+  padding: 5rem 10rem;
   text-align: center;
 }
 #portifolio h1{
-font-size: 36px;
+font-size: 3.6rem;
 color: #252525;
-margin-bottom: 30px;
+margin-bottom: 3rem;
 }
 #portifolio p{
-font-size: 16px;
+font-size: 1.6rem;
 line-height: 2;
 color: #555;
 }
 
 #gallery{
- 
-  padding: 0 100px 50px 100px;
+  padding: 0 10rem 5rem 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 1rem;
   color: #555;
-  margin-top:20px;
+  margin-top:2rem;
 }
-
 .gallery-card{
 width: 32%;
 text-align: center;
 }
-
 .gallery-title{
 text-transform: uppercase;
-letter-spacing:4px;
-font-size: 16px;
+letter-spacing:.4rem;
+font-size: 1.6rem;
 font-weight: bold;
-margin-block: 10px;
+margin-block: 1rem;
 }
 
 #about{
 background-color: #003d52;
-padding: 100px;
+padding:10rem;
 color: white;
 background-image: url('..//imagens/bg_detalhe.png');
 background-repeat: no-repeat;
 background-position: right bottom;
-margin-bottom: 10px;
+margin-bottom: 1rem;
 }
 
 .about-title{
 text-transform: uppercase;
-font-size: 52px;
+font-size: 5.2rem;
 font-weight: normal;
-margin-bottom: 30px;
+margin-bottom: 3rem;
 }
 .about-paragraph{
 line-height: 1.5;
@@ -116,20 +113,20 @@ width:70%;
 }
 
 #contact{
-margin: 50px 0;
+margin: 5rem 0;
 }
 #contact address{
 color: #143f52;
 text-transform: uppercase;
 font-style: normal;
-font-size: 26px;
+font-size: 2.6rem;
 text-align: center;
 font-weight: bold;
 }
 .maps{
 width:100%;
-height: 470px;
-margin-top: 15px;
+height: 47rem;
+margin-top: 1.5rem;
 }
 .maps iframe{
 width: 100%;
@@ -137,9 +134,9 @@ width: 100%;
 
 #footer{
 background-color: #0b171f;
-padding: 25px;
-font-size: 12px;
+padding: 2.5rem;
+font-size: 1.2rem;
 color: #6f8597;
 text-align: center;
-letter-spacing: 5px;
+letter-spacing:.5rem;
 }
