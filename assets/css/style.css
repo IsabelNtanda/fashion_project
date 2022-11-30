@@ -17,8 +17,6 @@ width: 80%;
 height: 100%;
 margin: auto;
 }
-#header{
-}
 nav{
 display: flex;
 justify-content:space-between;
@@ -48,8 +46,7 @@ transition: .3s;
 color: white;
 }
 nav .logo{
-position: relative;
-left: 150px;
+margin-left: 200px;
 }
 
 #header .imagem-topo{
